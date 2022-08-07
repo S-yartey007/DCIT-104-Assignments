@@ -1,4 +1,4 @@
-let primeNumbers = [];
+// Determine whether a number is prime or not
 function isPrime(num) {
     for(let i = 2; i < num; i++){
         if(num % i === 0) {
@@ -8,6 +8,7 @@ function isPrime(num) {
     } return true;
 
 }
+// Sums the prime numbers
 function sumOfPrime(num) {
     let sum = 0;
     for(let i = 2; i < num; i++) {
@@ -15,9 +16,10 @@ function sumOfPrime(num) {
             sum+= i;
         }
     }
-    return sum;
+    console.log(sum);
 }
-console.log(sumOfPrime(1));
+
+sumOfPrime();
 
 
 
