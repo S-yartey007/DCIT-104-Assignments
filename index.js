@@ -20,6 +20,7 @@ function sumOfPrime(num) {
 }
 
 sumOfPrime();
+// I certify that I wrote this piece of code myself without any outside help.
 
 
 
