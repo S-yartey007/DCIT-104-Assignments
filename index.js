@@ -8,18 +8,23 @@ function isPrime(num) {
     } return true;
 
 }
-// Sums the prime numbers
-function sumOfPrime(num) {
+// Averages the prime numbers
+function averageOfPrime(num) {
+    let j = 0;
     let sum = 0;
+    let average;
     for(let i = 2; i < num; i++) {
         if(isPrime(i)) {
             sum+= i;
+            j++;
         }
     }
-    console.log(sum);
+    average = sum/j;
 }
 
-sumOfPrime();
+
+
+averageOfPrime();
 // I certify that I wrote this piece of code myself without any outside help.
 
 
