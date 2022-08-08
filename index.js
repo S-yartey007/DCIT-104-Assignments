@@ -19,12 +19,12 @@ function averageOfPrime(num) {
             j++;
         }
     }
-    average = sum/j;
+   return average = sum/j;
 }
-
-
-
 averageOfPrime();
+
+
+
 // I certify that I wrote this piece of code myself without any outside help.
 
 
